@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>   
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylequiz.css">
+
+<title>::Quiz::</title>
+<!--This is the code for the navigation bar--> 
+<div> <a href="index.html"><img src="css\img\d1.jpg" class="logo" alt="logo" width="95" height="100"></a></div>
+
+<div class="navbar">
+     <a href="index.html">Home</a>
+    <a class="current" href="quiz.html">Quiz</a>
+    <a href="about.html">Contact Us</a>
+</div>
+
+</head>
+<!--This is where the code for the quiz will go plus java script-->
+<body>
+  <div style="text-align: center;">The Quiz is below</div>
+  <div class="quizzz"id="quiz"></div>
+  <button id="submit" style="position: relative; right: -550px; margin-top: 50px;">Check Answer</button>
+  <a href="feedback.html"><button id="feedback" style="position: relative; right: -550px; margin-top: 50px;">Feedback</button></a>
+  <div id="results" style="left: 125px;"></div>
+<!--This is the java script code block that would contain the questions. There are functions which help in showing the questions and deciding which answer is correct-->
+  <script src="quiz.js"></script>
+
+</body>
+
+</html>

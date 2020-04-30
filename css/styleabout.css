@@ -1,0 +1,63 @@
+/*//
+This code block deals with the font and generaly layout of the website style
+*/
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: white;
+  }
+  /*
+  This code block deals with the style and background of the body
+  */
+  body {
+     background-image: url("img/b5.jpg");
+     height: 500px;
+     background-position: center;
+     background-repeat: repeat-y;
+     background-size: cover;
+     background-color: gray;
+  }
+/*This code block deals with the style of the navigation bar which include links, logo, text. */
+.navbar {
+    background-color: none;
+    overflow: hidden;
+    opacity: 1;
+    position: absolute;
+    right:100px;
+    margin-top: -90px;
+  }
+  
+  /* this focouses on th links */
+  .navbar a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  /* Code for the logo layout*/
+  .logo{
+   position: relative;
+   opacity: 0.6;
+  }
+  /* this changes the colour of the liks when you honver over them with the mouse */
+  .navbar a:hover {
+    background-color: rgb(56, 0, 119);
+    color: black;
+  }
+  
+  /* this would make the current link you are on have a distinct color and background from the rest */
+  .navbar a.current {
+    background-color: rgb(84, 0, 180);
+    color: white;
+  }
+  /*This styles the fields*/
+  input{
+      background-color: whitesmoke;
+      border: 2px;
+      border-color: rgb(56, 0, 119);
+           
+  }
